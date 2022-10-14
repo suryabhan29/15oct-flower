@@ -1,0 +1,201 @@
+/*
+    i can write here anything
+*/
+div.parent {
+    width: 600px;
+    height: 600px;
+    
+    position: relative;
+    /*
+        i used margin two property
+        margin: T/B L/R
+    */
+    margin: 150px auto;
+    animation-name: suraj;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes suraj{
+   from{
+    transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(360deg);
+   } 
+}
+div.child{
+    width: 300px;
+    height: 300px;
+}
+div.br1{
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+div.br2{
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+div.parent > div.child1{
+    width: 300px;
+    height: 300px;
+    background: green;
+    
+    transform-origin: right bottom;
+    transform: rotate(0deg);
+}
+div.parent > div.child2{
+    background: purple;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+div.parent div.child3{
+    background: orange;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+div.parent div.child4{
+    background: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+div.parent div.child5{
+    background: blueviolet;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform-origin: right bottom;
+    transform: rotate(11deg);
+}
+div.parent div.child6{
+    background: cadetblue;
+    transform: rotate(22deg);
+}
+div.parent div.child7{
+    background: chocolate;
+    transform: rotate(33deg);
+}
+div.parent div.child8{
+    background: crimson;
+    transform: rotate(44deg);
+}
+div.parent div.child9{
+    background: cyan;
+    transform: rotate(55deg);
+}
+div.parent div.child10{
+    background: darkorange;
+    transform: rotate(66deg);
+}
+div.parent div.child11{
+    background: deeppink;
+    transform: rotate(77deg);
+}
+div.parent div.child12{
+    background: gold;
+    transform: rotate(87deg);
+}
+div.parent div.child13{
+    background-color: darkgreen;
+    transform: rotate(98deg);
+}
+div.parent div.child14{
+    background: indigo;
+    transform: rotate(109deg);
+}
+div.parent div.child15{
+    background: lavender;
+    transform: rotate(120deg);
+}
+div.parent div.child16{
+    background: lightsalmon;
+    transform: rotate(131deg);
+}
+div.parent div.child17{
+    background: mediumblue;
+    transform: rotate(142deg);
+}
+div.parent div.child18{
+    background: orangered;
+    transform: rotate(153deg);
+}
+div.parent div.child19{
+    background: palegoldenrod;
+    transform: rotate(164deg);
+}
+div.parent div.child20{
+    background: peru;
+    transform: rotate(175deg);
+}
+div.parent div.child21{
+    background: skyblue;
+    transform: rotate(186deg);
+}
+div.parent div.child22{
+    background: seagreen;
+    transform: rotate(197deg);
+}
+div.parent div.child23{
+    background: tomato;
+    transform: rotate(208deg);
+}
+div.parent div.child24{
+    background: yellow;
+    transform: rotate(219deg);
+}
+div.parent div.child25{
+    background: plum;
+    transform: rotate(230deg);
+}
+div.parent div.child26{
+    background: mediumvioletred;
+    transform: rotate(241deg);
+}
+div.parent div.child27{
+    background: silver;
+    transform: rotate(252deg);
+}
+div.parent div.child28{
+    background: sienna;
+    transform: rotate(263deg);
+}
+div.parent div.child29{
+    background: violet;
+    transform: rotate(274deg);
+}
+div.parent div.child30{
+    background: mediumspringgreen;
+    transform: rotate(285deg);
+}
+div.parent div.child31{
+    background: navy;
+    transform: rotate(296deg);
+}
+div.parent div.child32{
+    background: saddlebrown;
+    transform: rotate(307deg);
+}
+div.parent div.child33{
+    background: yellowgreen;
+    transform: rotate(318deg);
+}
+div.parent div.child34{
+    background: lime;
+    transform: rotate(330deg);
+}
+div.parent div.child35{
+    background: maroon;
+    transform: rotate(341deg);
+}
+div.parent div.child36{
+    background: fuchsia;
+    transform: rotate(352deg);
+}
+
+
